@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/reducido.css">
+    <title>Clase-14-Complementaria-CardozoTomasGabriel</title>
+</head>
+<body class="bg-dark">
+    <nav class="container p-2 mt-3 bg-dark sticky-top ">
+        <div class="row text-white addTasks">
+
+            <div class="col-12 col-sm-6 col-md-3 d-flex flex-row justify-content-center alig-items-center">
+                TASK LIST 😲❤🖤
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mostrarCompleto d-flex flex-row justify-content-center alig-items-center">
+                    <button class="btn btn-secondary">Completo</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mostrarIncompleto d-flex flex-row justify-content-center alig-items-center">
+                    <button class="btn btn-secondary">Incompleto</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+    
+    <main>
+        <div class="container mt-3">
+            <form>
+                <div class="row">
+                    <div class="col-11 divInput">
+                        <input class="form-control taskInputC" type="text" placeholder="Ingrese su tarea..." name="taskInput" id="taskInput">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-secondary" type="submit">Agregar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="container mt-3">
+            <div class="row list-group taskList">
+            </div>
+        </div>
+
+    </main>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
